@@ -10,7 +10,7 @@ for root, dirs, files in os.walk('Outfiles'):
 
 arh.close()
 
-ya = yadisk.YaDisk(token="AgAAAAARP-uAAADLW2sP2KSrOE5mmYdEEPbe158")
+ya = yadisk.YaDisk(token="")
 
 try:
     ya.remove("/outfile.zip", permanently=True)
